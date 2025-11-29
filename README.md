@@ -1,6 +1,6 @@
 # Documentation
 
-## Task 1 — Smart Text Analyzer using Python
+## Task 1 Smart Text Analyzer using Python
 
 ### Steps I followed
 1. First thing I decided to remove special characters and split the text using space " " and store it in words(list). This helps me to reuse it later in the code for all the problems. The time complexity will be O(n) when n is word length.
@@ -17,7 +17,7 @@
 
 ---
 
-## Task 2 — Async Data Fetcher with Retry using JavaScript
+## Task 2 Async Data Fetcher with Retry using JavaScript
 
 ### Steps I followed
 1. First thing I wrote a helper function wait(ms) to pause execution for a given number of milliseconds. This helps simulate network delays and also lets me wait between retries. The time complexity is O(1) for each call.
@@ -34,7 +34,7 @@
 
 ---
 
-## Task 3 — Rate Limiter using JavaScript
+## Task 3 Rate Limiter using JavaScript
 
 ### Steps I followed
 1. First I created a Map called rateLimiter to store requests for each user. The key is the userId and the value is an array of timestamps representing when requests were made. Using a Map makes lookups and updates fast.
